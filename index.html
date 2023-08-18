@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>Game Player Class Assignment Week 2</title>
+</head>
+
+<body>
+    <div class="outer_div">
+        <div class="player_1 player--0 player--active">
+            <h2 class="name" id="name--0">Player 1</h2>
+            <h3 class="score" id="score--0">0</h3>
+            <div class="player1_count">
+                <h4 class="current-label">Current</h4>
+                <p class="current-score" id="current--0">0</p>
+            </div>
+            <button type="button" class="btn--new"><i class="fas fa-sync-alt"></i> New Game</button>
+        </div>
+        <div class="player_2 player--1">
+            <h2 class="name" id="name--1">Player 1</h2>
+            <h3 class="score" id="score--1">0</h3>
+            <div class="player2_count">
+                <h4 class="current-label">Current</h4>
+                <p class="current-score" id="current--1">0</p>
+            </div>
+            <div class="roll_dice">
+                <button type="button" class="btn--roll"><i class="fas fa-dice"></i> Roll Dice</button>
+                <button type="button" class="btn--hold"><i class="fas fa-pause"></i> Hold</button>
+            </div>
+        </div>
+        <img src="dice-5.png" alt="Playing dice" class="dice" />
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
